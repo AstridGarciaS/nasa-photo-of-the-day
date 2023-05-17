@@ -2,6 +2,17 @@ import React, { useState, useEffect} from "react";
 import "./App.css";
 import axios from "axios";
 import NasaPhoto from "./Components/NasaPhoto";
+import styled from "styled-components";
+
+const AppStyling = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  height 100vh;
+  background-color: red;
+`;
+
 
 const dummyData = {
 date: "2023-05-15",
